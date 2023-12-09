@@ -1,0 +1,21 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "NavaigationMultiModuleHiltFragmentManager"
+include ':app'
+include ':welcome'
+include ':home'
+include ':home-internal'
+include ':home-internal2'
+include ':home-internal2'
